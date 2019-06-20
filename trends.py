@@ -52,7 +52,7 @@ while True:
 
         # randomize the color,rotation angle, and size of the word text
         color = matplotlib.cm.colors.to_hex(cmap(np.random.rand(1))[0])
-        ##        rotation = random.uniform(-1, 1)*30
+        # rotation = random.uniform(-1, 1)*30
         rotation = 0.0
         size_var = random.uniform(0.4, 1) * font_pixel_density
         prev_children = ax.get_children()
